@@ -21,7 +21,7 @@ return {
     workspaces = {
       {
         name = 'personal',
-        path = '~/Documents/utilitron',
+        path = '/home/utilitron/Documents/utilitron',
       },
     },
 
@@ -31,12 +31,12 @@ return {
     { '<leader>on', '<cmd>ObsidianNew<cr>', desc = 'New Obsidian note', mode = 'n' },
     { '<leader>oo', '<cmd>ObsidianSearch<cr>', desc = 'Search Obsidian notes', mode = 'n' },
     { '<leader>ob', '<cmd>ObsidianBacklinks<cr>', desc = 'Show location list of backlinks', mode = 'n' },
-    { '<leader>ot', '<cmd>ObsidianTemplate<cr>', desc = 'Follow link under cursor', mode = 'n' },
+    { '<leader>ot', '<cmd>ObsidianTemplate<cr>', desc = 'Insert Template', mode = 'n' },
   },
 
   templates = {
-    folder = 'templates',
-    date_format = 'YYYY-MM-dd',
+    folder = 'home/utilitron/Documents/utilitron/Zettelkasten',
+    date_format = '%Y-%m-%d-%a',
     time_format = '%H:%M',
   },
 }
