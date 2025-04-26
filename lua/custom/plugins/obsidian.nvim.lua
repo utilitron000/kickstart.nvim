@@ -18,6 +18,7 @@ return {
     -- see below for full list of optional dependencies 👇
   },
   opts = {
+    disable_frontmatter = true,
     workspaces = {
       {
         name = 'personal',
@@ -35,7 +36,7 @@ return {
   },
 
   templates = {
-    folder = 'home/utilitron/Documents/utilitron/Zettelkasten',
+    folder = 'home/utilitron/Documents/utilitron/--templates',
     date_format = '%Y-%m-%d-%a',
     time_format = '%H:%M',
   },
